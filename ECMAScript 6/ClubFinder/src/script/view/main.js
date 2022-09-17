@@ -13,7 +13,6 @@ const main = function() {
         results.forEach(function(club) {
             const { name, fanArt, description } = club;
 
-
             const clubElement = document.createElement('div');
             clubElement.setAttribute('class', 'club');
 
