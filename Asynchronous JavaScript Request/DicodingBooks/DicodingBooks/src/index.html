@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Indonesian Menu Recipe</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-primary">
+            <span class="navbar-brand mb-0 h1">Indonesian Menu Recipe</span>
+        </nav>
+    </header>
+    <main class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header">
+                        <h5 class="card-title">Input Buku</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <label for="inputRecipeId">ID Makanan</label>
+                            <input id="inputRecipeId" type="number" class="form-control" placeholder="ID Recipe" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputRecipeTitle">Nama</label>
+                            <input id="inputRecipeTitle" type="text" class="form-control" placeholder="Judul Buku" />
+                        </div>
+                        <div class="form-group">
+                            <label for="inputRecipeAuthor">Pengarang</label>
+                            <input id="inputRecipeAuthor" type="text" class="form-control" placeholder="Pengarang" />
+                        </div>
+                        <div class="form-group">
+                            <button id="buttonSave" class="btn btn-success">Save</button>
+                            <button id="buttonUpdate" class="btn btn-primary">
+                  Update
+                </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="searchRecipe" class="row"></div>
+        <div id="listRecipe" class="row"></div>
+    </main>
+</body>
+
+</html>
