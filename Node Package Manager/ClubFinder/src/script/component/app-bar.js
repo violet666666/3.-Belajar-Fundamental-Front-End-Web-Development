@@ -21,8 +21,8 @@ class AppBar extends HTMLElement {
             :host {
                 display: block;
                 width: 100%;
-                background-color: black;
-                color: ghostwhite;
+                background-color: rgba(111, 247, 211);
+                color: black;
                 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
             }
             h2 {
@@ -30,7 +30,7 @@ class AppBar extends HTMLElement {
                 text-align: center;
             }
         </style>
-        <h2>Song Finder</h2>`;
+        <h2>iTunes Finder</h2>`;
     }
 }
 

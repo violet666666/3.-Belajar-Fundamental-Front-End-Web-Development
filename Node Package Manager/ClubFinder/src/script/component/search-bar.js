@@ -23,13 +23,13 @@ class SearchBar extends HTMLElement {
         <style>
         .search-container {
             max-width: 800px;
-            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px 0 rgba(145, 230, 207);
             padding: 16px;
             border-radius: 5px;
             display: flex;
             position: sticky;
             top: 10px;
-            background-color: black;
+            background-color: rgba(111, 247, 211);
         }
        
         .search-container > input {
@@ -60,7 +60,7 @@ class SearchBar extends HTMLElement {
             margin-left: auto;
             padding: 16px;
             background-color: rgba(26, 189, 145);
-            color: white;
+            color: black;
             border: 0;
             text-transform: uppercase;
         }

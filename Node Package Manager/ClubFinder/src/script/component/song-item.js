@@ -21,7 +21,7 @@ class SongItem extends HTMLElement {
                 :host {
                     display: block;
                     margin-bottom: 18px;
-                    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+                    box-shadow: 0 4px 8px 0 rgba(145, 230, 207);
                     border-radius: 10px;
                     overflow: hidden;
                 }
