@@ -29,7 +29,7 @@ class SearchBar extends HTMLElement {
             display: flex;
             position: sticky;
             top: 10px;
-            background-color: darkgray;
+            background-color: black;
         }
        
         .search-container > input {
@@ -50,7 +50,7 @@ class SearchBar extends HTMLElement {
         }
        
         .search-container >  input::placeholder {
-            color: darkcyan;
+            color: black;
             font-weight: normal;
         }
        
@@ -59,10 +59,14 @@ class SearchBar extends HTMLElement {
             cursor: pointer;
             margin-left: auto;
             padding: 16px;
-            background-color: darkcyan;
+            background-color: rgba(26, 189, 145);
             color: white;
             border: 0;
             text-transform: uppercase;
+        }
+        
+        .search-container > button:hover {
+            background-color: rgba(16, 105, 81);
         }
        
         @media screen and (max-width: 550px){
@@ -82,7 +86,7 @@ class SearchBar extends HTMLElement {
         }
         </style>
         <div id="search-container" class="search-container">
-            <input placeholder="iTunes Search..." id="searchElement" type="search">
+            <input placeholder="Looking for Song Title..." id="searchElement" type="search">
             <button id="searchButtonElement" type="submit">Search</button>
         </div>
         `;

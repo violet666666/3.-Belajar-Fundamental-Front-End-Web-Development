@@ -30,7 +30,7 @@ class AppBar extends HTMLElement {
                 text-align: center;
             }
         </style>
-        <h2>iTunes Search</h2>`;
+        <h2>Song Finder</h2>`;
     }
 }
 
